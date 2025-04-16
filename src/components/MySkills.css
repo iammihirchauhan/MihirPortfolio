@@ -1,0 +1,50 @@
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+.skill-container h1 {
+  padding: 100px;
+  font-weight: bold;
+}
+
+.skill-container span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.skill-container img {
+  width: 20px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  max-width: 25ch;
+}
+
+.skill-container hr {
+  width: 100px;
+  height: 1px;
+  border: none;
+  background-color: var(--text-color);
+  margin: 30px auto;
+}
+
+@media (min-width: 800px) {
+  .skill-list {
+    max-width: fit-content;
+    gap: 30px;
+  }
+  .skill-list p {
+    font-size: 20px;
+  }
+  .skill-container hr {
+    width: 200px;
+  }
+}

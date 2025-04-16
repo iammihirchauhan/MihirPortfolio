@@ -1,0 +1,89 @@
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 95%;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  padding: 30px 0;
+  border-radius: 13px;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 99999;
+}
+
+.navbar h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  color: var(--text-color);
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 30px;
+  margin: 50px;
+}
+
+.menu-icon {
+  display: none;
+  gap: 1.5rem;
+  font-weight: 500;
+}
+
+.menu-btn a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+  padding: 15px;
+  position: relative;
+  right: -40px;
+}
+
+.menu-btn :hover {
+  color: #4a4a4a;
+  text-decoration: underline;
+  text-decoration-color: rgba(181, 181, 181);
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    width: 95%;
+    height: 5px;
+  }
+  .navbar h2 {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .menu-icon {
+    display: block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-left: 200px;
+  }
+  .menu-btn {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    background: white;
+    gap: 20px;
+  }
+  .menu-btn.open {
+    display: flex;
+    border-radius: 10px;
+    width: 20%;
+    border: 1px solid #aaaaaa;
+  }
+}
