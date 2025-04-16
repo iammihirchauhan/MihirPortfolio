@@ -81,7 +81,7 @@
     gap: 20px;
   }
   .menu-btn.open {
-    display: flex; 
+    display: flex;
     border-radius: 20px;
     border: 1px solid #aaaaaa;
   }
@@ -92,5 +92,4 @@
     top: 10px;
     right: -30px;
   }
-  
 }
