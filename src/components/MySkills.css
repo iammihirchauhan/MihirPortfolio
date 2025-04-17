@@ -28,7 +28,7 @@
 
 .skill-container hr {
   width: 150px;
-  height: 1px;
+  height: 0.1px;
   border: none;
   background-color: var(--text-color);
   margin: 30px auto;
