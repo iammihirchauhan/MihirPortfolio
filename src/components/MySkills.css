@@ -21,11 +21,9 @@
 
 .skill-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-self: center;
-  flex-wrap: wrap;
   row-gap: 48px;
-  max-width: 25ch;
 }
 
 .skill-container hr {

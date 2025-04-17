@@ -1,5 +1,4 @@
 import "./MySkills.css";
-import tick_light from "../assets/checkmark-light.svg";
 import tick_dark from "../assets/checkmark-dark.svg";
 import { MySkillsData } from "../MySkillsData";
 
@@ -12,7 +11,7 @@ export const MySkills = () => {
       </div>
       <hr />
       <div className="skill-list">
-        <MySkillsData src={tick_dark} skills="JAVASCRIPT" />
+        <MySkillsData src={tick_dark}  skills="JAVASCRIPT" />
       </div>
       <hr />
       <div className="skill-list">
