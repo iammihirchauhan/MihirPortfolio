@@ -1,6 +1,8 @@
 import "./MyProject.css";
-import viberr from "../assets/viberr.png";
+import travel from "../assets/ziptrip.jpg";
 import burger from "../assets/fresh-burger.png";
+import todo from "../assets/Todo.jpg";
+
 import { ProjecrCard } from "./ProjectCard";
 
 export const MyProject = () => {
@@ -15,7 +17,13 @@ export const MyProject = () => {
           p="Food Delevery App"
         />
         <ProjecrCard
-          src={viberr}
+          src={todo}
+          link={"https://github.com/iammihirchauhan/MyTodoApp.git"}
+          h3="Todo"
+          p="Todo app"
+        />
+        <ProjecrCard
+          src={travel}
           link={"https://github.com/iammihirchauhan/Ziptrip.git"}
           h3="ZipTrip"
           p="Traveling App"
