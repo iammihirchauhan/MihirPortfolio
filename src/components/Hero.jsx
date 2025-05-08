@@ -9,7 +9,7 @@ import git_light from "../assets/github-light.svg";
 import linkedin_dark from "../assets/linkedin-dark.svg";
 import linkedin_light from "../assets/linkedin-light.svg";
 
-import resume from "../assets/My resume.pdf";
+import resume from "../assets/my resume.pdf";
 import { useTheme } from "./ThemeContaxt";
 
 export const Hero = () => {
