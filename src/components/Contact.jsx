@@ -50,7 +50,7 @@ export const Contact = () => {
             type="email"
             name="email"
             id="email"
-            placeholder="Email"
+            placeholder="email"
             required
           />
         </div>

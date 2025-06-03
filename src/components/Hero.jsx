@@ -50,10 +50,11 @@ export const Hero = () => {
           </a>
         </span>
         <p className="description">
-          I’m mihir chauhan and i am frontend developer, technical skills are
-          React.js,javascript(basic),HTML and css and i am passionate about
-          building responcive user friendly user interface and web application.
-          graduated from Deviba institute of computer application.
+          I’m mihir chauhan and i am frontend developer with technical skills in
+          <span>React.js, javascript(basic), HTML and css </span>and i am
+          passionate about building responcive user friendly interface and
+          web application. I graduated from Deviba institute of computer
+          application.
         </p>
         <a href={resume}>
           <button className="hover" download>

@@ -10,6 +10,16 @@
   margin-top: 100px;
 }
 
+.info h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.info h2 {
+  font-family: Montserrat-light;
+  font-weight: 500;
+}
+
 span {
   display: flex;
   gap: 25px;
@@ -26,6 +36,7 @@ span a img {
 }
 
 button {
+  font-family: Montserrat-light;
   background-color: var(--btn-color);
   color: var(--btn-text-color);
   border: none;
@@ -67,8 +78,19 @@ button:active {
 }
 
 .description {
-  max-width: 24ch;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 90%;
+  max-width: 35ch;
   align-self: center;
+
+  span {
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #1e90ff;
+  }
 }
 
 .info {

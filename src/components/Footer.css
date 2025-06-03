@@ -4,11 +4,13 @@
 }
 
 .footer p {
+  font-family: Inter;
   font-size: 18px;
   color: var(--footer-text-color);
 }
 
 .back-to-top {
+  font-family: Inter;
   display: inline-block;
   margin-top: 10px;
   color: var(--text-color);

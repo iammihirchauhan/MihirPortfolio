@@ -19,7 +19,7 @@ export const MyProject = () => {
         <ProjecrCard
           src={todo}
           link={"https://github.com/iammihirchauhan/MyTodoApp.git"}
-          h3="Todo"
+          h3="mytodofrog"
           p="Todo app"
         />
         <ProjecrCard
