@@ -8,8 +8,8 @@ import git_dark from "../assets/github-dark.svg";
 import git_light from "../assets/github-light.svg";
 import linkedin_dark from "../assets/linkedin-dark.svg";
 import linkedin_light from "../assets/linkedin-light.svg";
+import resume from "../assets/MihirChauhan_FrontendDeveloper.pdf";
 
-import resume from "../assets/mihir-frontend-resume.pdf";
 import { useTheme } from "./ThemeContaxt";
 
 export const Hero = () => {
