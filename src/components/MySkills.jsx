@@ -16,6 +16,10 @@ export const MySkills = () => {
       </div>
       <hr />
       <div className="skill-list">
+        <MySkillsData src={tick_light}  skills="Bootstrap" />
+      </div>
+      <hr />
+      <div className="skill-list">
         <MySkillsData src={tick_light} skills="CSS" />
       </div>
       <hr />

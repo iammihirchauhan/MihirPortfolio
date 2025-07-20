@@ -76,7 +76,7 @@
     display: block;
     font-size: 1.2rem;
     cursor: pointer;
-    padding-left: 150px;
+    padding-left: 110px;
   }
   .menu-btn {
     display: none;
@@ -93,7 +93,7 @@
     border: 1px solid #aaaaaa;
   }
   .menu-btn {
-    height: 150px;
+    height: 160px;
     padding: 5px;
     position: absolute;
     top: 11px;

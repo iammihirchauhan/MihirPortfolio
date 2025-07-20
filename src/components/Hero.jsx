@@ -51,7 +51,7 @@ export const Hero = () => {
         </span>
         <p className="description">
           I’m mihir chauhan and i am frontend developer with technical skills in
-          <span>React.js, javascript(basic), HTML and css </span>and i am
+          <span>React.js, Javascript, Bootstrap, HTML and css </span>and i am
           passionate about building responcive user friendly interface and web
           application. I graduated from Deviba institute of computer
           application.

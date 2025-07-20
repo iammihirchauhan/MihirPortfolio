@@ -4,6 +4,7 @@
   text-align: center;
   margin-top: 50px;
 }
+
 .skill-container h1 {
   padding: 100px;
   font-weight: bold;
@@ -29,7 +30,6 @@
   display: flex;
   justify-content: space-evenly;
   align-self: center;
-  row-gap: 48px;
 }
 
 .skill-title {
