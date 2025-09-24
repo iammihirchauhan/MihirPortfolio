@@ -37,7 +37,7 @@ export const Hero = () => {
           <br />
           chauhan
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Python Developer</h2>
         <span>
           <a href="https://x.com/mihir2374/" target="_blank">
             <img src={twittericon} alt="" />
@@ -51,9 +51,12 @@ export const Hero = () => {
         </span>
         <p className="description">
           I’m mihir chauhan and i am frontend developer with technical skills in
-          <span>React.js, Javascript, Bootstrap, HTML and css </span>and i am
-          passionate about building responcive user friendly interface and web
-          application. I graduated from Deviba institute of computer
+          <span>
+            Python, Django Rest Framework(DRF),PostGres SQL, Javascript,
+            Bootstrap, HTML and CSS
+          </span>
+          and i am passionate about building responcive user friendly interface
+          and web application. I graduated from Deviba institute of computer
           application.
         </p>
         <a href={resume}>

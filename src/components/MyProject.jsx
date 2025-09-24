@@ -12,21 +12,15 @@ export const MyProject = () => {
       <div className="projects-container">
         <ProjecrCard
           src={burger}
-          link={"https://github.com/iammihirchauhan/Zostomato.git"}
-          h3="ZosTomato"
-          p="Food Delevery App"
-        />
-        <ProjecrCard
-          src={todo}
-          link={"https://github.com/iammihirchauhan/MyTodoApp.git"}
-          h3="mytodofrog"
-          p="Todo app"
+          link={"https://github.com/iammihirchauhan/DRF_CRUD_OPERATION.git"}
+          h3="Student CRUD API"
+          p="Student CRUD operation"
         />
         <ProjecrCard
           src={travel}
-          link={"https://github.com/iammihirchauhan/Ziptrip.git"}
-          h3="ZipTrip"
-          p="Traveling App"
+          link={"https://github.com/iammihirchauhan/Blog_API.git"}
+          h3="Blog API"
+          p="Blog CRUD operation"
         />
       </div>
     </section>
